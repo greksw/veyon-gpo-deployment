@@ -1,0 +1,15 @@
+{
+  "AccessControl": {
+    "AccessRestrictedToUserGroups": true,
+    "AuthorizedUserGroups": [
+      "GG-EXAMPLE-Veyon-Operators"
+    ]
+  },
+  "UserGroups": {
+    "UseDomainUserGroups": true
+  },
+  "Network": {
+    "FirewallExceptionEnabled": false,
+    "VeyonServerPort": 11100
+  }
+}

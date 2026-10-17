@@ -1,0 +1,13 @@
+# Never commit production configs, hashes in generated manifests or binaries
+*.exe
+*.msi
+*.pfx
+*.p12
+*.key
+*.keytab
+*.log
+manifest.json
+veyon-config.json
+logs/
+Private/
+Cache/
