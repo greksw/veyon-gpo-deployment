@@ -1,0 +1,25 @@
+{
+  "Version": "4.11.3.0",
+  "Packages": {
+    "x64": {
+      "File": "veyon-4.11.3.0-win64-setup.exe",
+      "SHA256": "REPLACE_WITH_VERIFIED_X64_SHA256"
+    },
+    "x86": {
+      "File": "veyon-4.11.3.0-win32-setup.exe",
+      "SHA256": "REPLACE_WITH_VERIFIED_X86_SHA256"
+    }
+  },
+  "Config": {
+    "File": "veyon-config.json",
+    "SHA256": "REPLACE_WITH_VERIFIED_CONFIG_SHA256"
+  },
+  "Firewall": {
+    "Protocol": "TCP",
+    "Port": 11100,
+    "RemoteAddresses": [
+      "192.0.2.0/24",
+      "198.51.100.10"
+    ]
+  }
+}
